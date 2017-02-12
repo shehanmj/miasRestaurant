@@ -1,0 +1,5 @@
+var breakfast=[
+  {"name": "Coffee", "price": 2.99, "image": 'images/coffee.jpeg' },
+  {'name': 'Eggs', 'price': 1.99, 'image': 'images/fried_egg.jpg' },
+  {'name': 'Toast', 'price': .99, 'image': 'images/toast.jpg' }
+];

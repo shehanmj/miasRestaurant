@@ -1,0 +1,95 @@
+.container, .main, .menu1 {
+  display:flex-inline;
+}
+
+h1, #name, #name1, #price {
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+h3 {
+  font-family: Cursive;
+  text-align: center;
+}
+h3 a {
+  color: black;
+}
+h3 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+.menu1 {
+  margin-top: 100px;
+}
+
+.menu1 h1 {
+  font-size: 6em;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menus {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap:wrap;
+}
+
+.items {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap:wrap;
+
+}
+
+li {
+  font-size: 1.5em;
+  font-family: cursive;
+
+}
+
+img {
+  border-color:black;
+}
+
+#name, #price {
+  font-size: 2em;
+  font-family: cursive;
+  padding-bottom: 20px;
+}
+#price {
+  position: relative;
+  left: -100px;
+  font-size: 2em;
+  padding-left: 10px;
+}
+#name1 {
+  font-family: Cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+.photo {
+  border-style:solid;
+  border-width: thin;
+}
